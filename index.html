@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alura Typer</title>
+        <link rel="stylesheet" href="public/css/libs/materialize.min.css">
+        <link rel="stylesheet" href="public/css/libs/google-fonts.css">
+        <link rel="stylesheet" href="public/css/estilos.css">
+        <link rel="stylesheet" href="public/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1>Flash Write</h1>
+            <p class="frase">Um texto é uma ocorrência linguística, escrita ou falada de qualquer extensão, dotada de unidade sociocomunicativa, semântica e formal. É uma unidade de linguagem em uso.</p>
+            <ul class="informacoes">
+                <li> <span id="tamanho-frase"></span> palavras</li>
+                <li> <span id="tempo-digitacao">35</span> segundos</li>
+            </ul>
+
+            <textarea name="" class="campo-digitacao" cols="80px" rows="70px"></textarea>
+            <button id="botao-reiniciar">Reiniciar</button>
+            <button id="botao-placar">Placar</button>
+
+            <ul id="contador">
+                <li> <span id="contador-caracteres"> 0 </span> Caracteres</li>
+                <li> <span id="contador-palavras"> 0 </span> Palavras</li>
+            </ul>
+
+            <section class="placar">
+                <h3>Placar</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Núm. de palavras</th>
+                            <th>Remover</th>
+                        </tr>
+                    </thead>
+                    <tbody>   
+
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <script src="public/js/jquery.js"></script>
+        <script src="public/js/main.js"></script>
+        <script src="public/js/placar.js"></script>
+    </body>
+</html>

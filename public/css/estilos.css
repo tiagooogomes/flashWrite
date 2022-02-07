@@ -1,0 +1,108 @@
+body{
+    overflow: scroll;
+    margin: 0;
+    background-color: #0E1A26;
+    color: #B8B7BD;
+}
+
+h1{
+    font-family: 'Lily Script One', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+h3{
+    font-size:50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+th{
+    font-size: 30px;
+    text-align: center;
+}
+
+td{
+    font-size: 30px;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea{
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+button{
+    width: 30%;
+    height: 55px;
+    text-align: center;
+    background-color: #0E1A26;
+    border: #B8B7BD 3px solid;
+    color: #B8B7BD;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#botao-placar{
+    margin-left: 30px;
+}
+
+button:hover{
+    background-color: #B8B7BD;
+    color: #0E1A26;
+}
+
+button:focus{
+    display: none;
+}
+
+li{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.borda-verde{
+    border: 5px solid green;
+}
+
+.borda-vermelha{
+    border: 5px solid red;
+}
+
+.campo-desativado {
+    background-color: #B8B7BD;
+    color: #0E1A26;
+}
+
+.botao-remover{
+    background-color: #B8B7BD;
+    color: #0E1A26;
+    font-size: 20px;
+    width: 28%;
+    height: 38px;
+    border-radius: 4px;
+}
+
+.placar{
+    display: none;
+    margin-top: 120px;
+}
